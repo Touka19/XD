@@ -51,7 +51,7 @@ async def play(client: Client, message_: Message):
                         break
 
         if offset == None:
-            await res.edit_text("Brr! 🤣 Reply to yt url."")
+            await res.edit_text("Brr! 🤣 Reply to yt url.")
             return
 
         url = text[offset:offset+length]
